@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "RWSkyFloatingPlaceholderTextField"
-  s.version      = "0.1.2"
+  s.name         = "RMSkyFloatingPlaceholderTextField"
+  s.version      = "0.1.3"
   s.summary      = "RWSkyFloatingPlaceholderTextField is textfield where placeholder will be on border of textfield when it is in editing mode"
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "RMSkyFloatingPlaceholderTextfield", "RMSkyFloatingPlaceholderTextfield/**/*.{h,m}"
+  s.source_files  = "RMSkyFloatingPlaceholderTextfield", "RMSkyFloatingPlaceholderTextfield/RMSkyFloatingPlaceholderTextfield/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
