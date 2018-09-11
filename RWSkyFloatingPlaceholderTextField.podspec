@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RWSkyFloatingPlaceholderTextField"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "RWSkyFloatingPlaceholderTextField is textfield where placeholder will be on border of textfield when it is in editing mode"
 
   # This description is used to generate tags and improve search results.
