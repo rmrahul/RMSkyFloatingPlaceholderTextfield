@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RMSkyFloatingPlaceholderTextField"
-  s.version      = "0.1.5"
+  s.version      = "0.1.6"
   s.summary      = "RWSkyFloatingPlaceholderTextField is textfield where placeholder will be on border of textfield when it is in editing mode"
 
   # This description is used to generate tags and improve search results.
@@ -64,6 +64,7 @@ s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   # s.platform     = :ios
   s.platform     = :ios, "10.0"
+s.swift_version = "4.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -91,6 +92,9 @@ s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   s.source_files  = "RMSkyFloatingPlaceholderTextfield/RMSkyFloatingPlaceholderTextfield", "RMSkyFloatingPlaceholderTextfield/RMSkyFloatingPlaceholderTextfield/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
+  s.resource_bundles = {
+	'RMSkyFloatingPlaceholderTextField' => [/RMSkyFloatingPlaceholderTextfield/RMSkyFloatingPlaceholderTextfield/*.xib']
+  }
 
   # s.public_header_files = "Classes/**/*.h"
 
