@@ -9,7 +9,7 @@
 import UIKit
 
 public class RMTextfieldView: UIView {
-    let kCONTENT_XIB_NAME = "RMTextfieldView"
+    let kCONTENT_XIB_NAME = "RMSkyFloatingPlaceholderTextfield"
     @IBOutlet var contentView: UIView!
     @IBOutlet weak var borderView: UIView!
     @IBOutlet weak var textfield: UITextField!
